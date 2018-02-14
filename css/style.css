@@ -1,0 +1,185 @@
+body {
+  background-color: #555;
+}
+
+.header {
+  color: #fff;
+  font-size: 20px;
+  background-color: #333;
+  background-repeat: repeat;
+  background-origin: border-box;
+  color: #fff;
+  padding: 15px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header-logo {
+  float: left;
+}
+
+.hands-free, .mic {
+  padding: 0px 10px;
+  float: right;
+  clear: none;
+}
+
+.hands-free-enabled, .mic-enabled {
+    background-color: #FFF;
+}
+
+.header img {
+  height: 30px;
+  width: auto;
+}
+
+.login button {
+  margin-top: 20px;
+  font-size: 2rem;
+  padding: 6px 25px;
+}
+
+.login h3 {
+  padding-bottom: 1rem;
+}
+
+.index-logo {
+  width:15%;
+  height: auto;
+  text-align: center;
+  margin: 2rem auto;
+  margin-top: 6rem;
+  background-color: #555;
+}
+
+.logo-text {
+  font-size: 4rem;
+  color: #DDD;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+.pages {
+  padding-top: 3rem;
+}
+
+.login.page {
+  background-color: #555;
+}
+
+.login.page .form {
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.login.page .form .usernameInput {
+  background-color: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.login.page .title {
+  font-size: 200%;
+}
+
+.login.page .usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.login.page .title, .login.page .usernameInput {
+  color: #fff;
+}
+
+/* Chat page */
+
+.chat.page {
+  display: none;
+}
+
+/* Font */
+
+.messages {
+  font-size: 150%;
+}
+
+.inputMessage {
+  font-size: 100%;
+}
+
+.log {
+  color: gray;
+  font-size: 70%;
+  margin: 5px;
+  text-align: center;
+}
+
+/* Messages */
+
+.chatArea {
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.messages {
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  padding: 10px 20px 10px 20px;
+}
+
+.message.typing .messageBody {
+  color: gray;
+}
+
+.username {
+  font-weight: 700;
+  overflow: hidden;
+  padding-right: 15px;
+  text-align: right;
+}
+
+/* Input */
+
+.inputMessage {
+  border: 10px solid #333;
+  bottom: 0;
+  height: 60px;
+  left: 0;
+  outline: none;
+  padding-left: 10px;
+  position: absolute;
+  right: 0;
+  width: 90%;
+  background-color: #CCC;
+}
+
+.send-button {
+  width: 10%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 60px;
+  font-weight: bold;
+}

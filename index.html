@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nuke Beta - CSCW Chat</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" href="/favicon.ico" />
+    </head>
+    <body>
+        <div class="col-xs-12 header">
+            <div class="col-xs-1 header-logo">
+                <img src="img/nuke.svg" /> <strong>Nuke</strong>Beta
+            </div>
+            <div class="col-xs-1 pull-right">
+                <a href="#" class="mic">
+                    <img src="img/mic.svg" alt="Use your microphone" />
+                </a>
+                <a href="#" class="hands-free">
+                    <img src="img/speaker.svg" alt="Enter hands-free mode" />
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-12 home-logo">
+            <div class="col-xs-12 index-logo">
+                <img src="img/nuke.svg" />
+            </div>
+            <div class="col-xs-12 logo-text">
+                <strong>Nuke</strong>Beta
+            </div>
+        </div>    
+        <div class="pages col-xs-12">
+            <div class="chat page col-xs-12">
+              <div class="chatArea">
+                <ul class="messages"></ul>
+              </div>
+              <input class="inputMessage" />
+              <button class="send-button" type="button">Nuke</button>
+            </div>
+            <div class="login page">
+              <div class="form">
+                <h3 class="title">Join our chat:</h3>
+                <input class="usernameInput" type="text" placeholder="Your name" />
+                <button type="button" class="join-button">Enter</button>
+              </div>
+            </div>
+        </div>
+
+        <script
+          src="http://code.jquery.com/jquery-1.12.4.min.js"
+          integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
